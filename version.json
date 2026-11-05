@@ -1,13 +1,14 @@
 {
-  "version": "0.54.0",
+  "version": "0.55.0",
   "date": "2026-11-05",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.54.0/Voynich-Setup-0.54.0.exe",
-  "sha256": "69f33bd206e20a1d7025085279f8855a47b2666d364b7dedb17142b722e07cc7",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.55.0/Voynich-Setup-0.55.0.exe",
+  "sha256": "f5213b76d1ed439b587d9c3105d0a7f1987136b99c346761fcc21c7e90ca29e3",
   "notes": [
-    "Text size: Small, Normal or Large for the whole app (Settings, Theme)",
-    "Small text is a little larger, and small buttons are easier to hit",
-    "The keyboard: one clear focus ring, and dialogs keep it inside",
-    "Press ? on any page for its keys"
+    "The same tabs in the hall and every room: Home, Library, Writing, Notes, Flashcards, Stats, Circles",
+    "No more sidebar: the rooms are in a menu at the start of the top bar, and the page has the whole width",
+    "Choosing another room keeps the tab you are on",
+    "Flashcards and Writing have tabs of their own; the Log is Stats, Sessions",
+    "On a phone: a bottom bar with Home, Library, Notes, Circles and More"
   ],
-  "signature": "Nvp8yNgNyNP9OgJ5SUcedUUJsorx0jywXgT8mWE4ypDY3JZvmX3ukRgq4y4nZFtramEggF5HITZVjbS7/kOIWg=="
+  "signature": "MoC1E+7VgfKLKfjAICQjb5hEPyxN5fI4qhp0mEHnmkZ09rWOPw4UUkBwKZspVZh1XgqhoD161OSZ7iauGtDInQ=="
 }
