@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0e1a">
+<title>Voynich: getting started in ten minutes</title>
+<meta name="description" content="A short guide to Voynich: install it, make your first room, log a study session, set a goal, write a linked note, add a book and keep your data safe.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='1.3' y='6.1' width='61.4' height='51.8' rx='10.9'/%3E%3Crect x='5' y='9.8' width='54' height='44.4' rx='7.2' fill='%23fff'/%3E%3Crect x='7.9' y='12.7' width='48.3' height='38.7' rx='4.3'/%3E%3Cpath transform='translate(32 32) scale(0.27) translate(-50 -50)' fill='%23fff' fill-rule='evenodd' d='M42.6 0.0 L42.1 0.3 L41.1 1.6 L37.8 6.8 L36.3 10.1 L35.8 12.6 L36.0 15.0 L37.2 19.5 L37.9 24.1 L37.9 54.3 L37.7 55.1 L36.7 56.2 L34.2 57.4 L30.8 58.2 L24.5 58.4 L21.6 58.9 L18.0 60.0 L15.3 61.5 L12.8 62.6 L10.9 62.8 L3.5 63.0 L0.7 63.4 L-0.2 63.8 L-2.5 65.2 L-4.2 66.7 L-5.7 69.4 L-6.9 73.1 L-7.0 78.8 L-6.6 80.6 L-5.4 83.4 L-2.8 88.1 L-1.3 91.4 L-0.6 92.4 L0.0 93.2 L3.7 95.7 L5.6 97.8 L6.4 98.3 L8.7 99.2 L11.7 99.9 L12.8 100.0 L18.1 99.4 L21.1 98.2 L23.5 96.1 L25.4 94.9 L27.1 93.4 L28.3 91.8 L28.4 90.7 L28.0 88.6 L27.3 87.5 L26.6 86.9 L25.5 86.5 L24.0 86.6 L21.4 87.4 L19.4 87.9 L16.7 88.1 L13.9 88.0 L12.7 87.9 L11.4 87.5 L9.1 85.8 L6.4 80.7 L6.0 79.8 L5.9 79.0 L6.6 77.3 L8.4 73.5 L8.9 72.6 L10.3 71.5 L12.0 70.6 L14.1 70.3 L29.7 70.1 L33.6 70.8 L35.6 71.5 L37.0 72.2 L37.7 73.1 L37.9 74.3 L37.9 90.7 L38.1 91.9 L38.7 93.4 L39.7 94.7 L42.1 95.8 L42.7 95.8 L43.4 95.5 L45.0 94.0 L46.1 92.4 L46.5 91.2 L46.7 88.2 L46.7 76.7 L46.8 73.4 L47.5 72.2 L48.8 71.2 L49.7 70.9 L54.7 70.4 L55.8 70.6 L57.6 72.0 L58.4 73.0 L58.8 74.3 L58.7 94.0 L58.9 96.5 L59.2 97.6 L60.0 98.5 L61.3 99.2 L63.3 99.6 L66.0 99.8 L67.0 99.7 L68.1 99.4 L69.2 98.8 L70.5 97.7 L72.0 95.9 L74.4 93.4 L75.1 92.3 L75.3 91.3 L75.2 90.2 L74.4 88.7 L73.2 87.4 L71.7 86.1 L70.9 84.9 L70.0 81.8 L69.5 78.9 L69.3 73.1 L69.5 68.2 L69.4 49.5 L69.8 47.1 L70.7 44.4 L72.1 42.5 L73.6 41.7 L77.9 40.9 L83.2 40.2 L86.0 39.5 L87.0 39.0 L89.0 37.5 L90.2 35.8 L91.3 34.8 L92.7 34.3 L95.4 33.6 L97.7 32.5 L99.1 31.1 L100.1 28.8 L101.6 27.6 L103.6 26.5 L104.8 25.1 L106.6 19.8 L106.9 18.0 L107.0 16.0 L106.5 13.2 L105.3 10.7 L103.4 8.4 L101.9 7.0 L99.5 5.4 L97.0 4.7 L92.0 4.4 L88.0 4.9 L85.6 5.5 L84.0 6.3 L80.0 8.9 L78.5 9.6 L76.1 11.5 L74.0 14.7 L71.2 17.6 L69.5 20.8 L68.3 22.5 L66.4 24.3 L64.6 27.2 L63.0 30.7 L61.9 32.1 L61.1 32.7 L60.0 33.1 L55.2 33.6 L54.1 33.2 L52.0 31.6 L48.6 27.6 L47.3 25.2 L47.0 23.8 L46.7 20.0 L46.6 8.1 L46.2 4.4 L45.7 2.7 L44.6 1.0 L43.7 0.2 L43.2 0.0 Z M90.2 16.5 L87.6 16.9 L84.8 17.8 L82.8 19.0 L81.0 20.5 L77.9 22.4 L76.1 24.1 L73.9 28.1 L72.3 29.7 L72.1 30.3 L72.1 30.9 L72.4 31.3 L73.7 32.5 L75.1 33.1 L76.7 33.6 L78.8 33.9 L80.3 33.9 L84.6 33.0 L87.0 32.3 L88.3 31.5 L89.7 30.2 L96.4 27.6 L97.4 26.7 L98.1 25.7 L98.5 24.7 L98.4 21.8 L97.7 19.3 L97.1 18.4 L96.4 17.9 L94.5 17.1 L92.6 16.6 Z M53.7 40.5 L50.0 41.0 L48.5 41.5 L47.6 42.2 L47.2 42.8 L46.8 45.1 L46.7 54.2 L46.8 55.0 L47.6 56.2 L48.8 57.1 L49.9 57.5 L52.0 57.8 L54.5 58.0 L55.9 57.7 L57.9 56.1 L58.5 55.1 L58.7 54.2 L58.7 45.4 L58.3 43.0 L57.5 41.9 L56.1 40.9 L55.0 40.5 Z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="guide.css">
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="index.html">Voynich</a>
+    <nav class="site" aria-label="Pages">
+      <a href="index.html">Home</a>
+      <a href="guide.html" aria-current="page">Getting started</a>
+      <a href="manual.html">Full manual</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Getting started in ten minutes</h1>
+    <p class="lead">Install Voynich, make your first room, log some time, set a goal, write a note, add a book and keep your data safe. Each step is short. When you want every detail, the <a href="manual.html">full manual</a> has them.</p>
+
+    <ol class="steps">
+      <li class="step" id="install">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Install it</h2>
+        <p><a class="button" href="https://github.com/cliteka-cell/voynich-releases/releases/latest/download/Voynich-Setup.exe">Download for Windows</a> <a class="button" href="https://github.com/cliteka-cell/voynich-releases/releases/latest/download/Tracker-Mac.dmg">Download for Mac</a></p>
+        <p>Open the file you downloaded. If Windows says &ldquo;Windows protected your PC&rdquo;, choose <strong>More info</strong> and then <strong>Run anyway</strong> (the program is not signed with a paid certificate). Click Next and Install; it needs no administrator rights. When it finishes, Voynich opens in your web browser, and a small Voynich icon appears near the clock. Click that icon to open Voynich again later; right-click it to quit.</p>
+        <p>On a Mac, open the disk image and drag Voynich onto the Applications folder. The first time, macOS asks you to allow it once (<a href="manual.html#mac">how</a>); then Voynich opens in your browser and a small clock icon appears in the menu bar at the top right. Click it to open Voynich; Control-click it to quit.</p>
+        <p>You can also start it from the Start menu (on a Mac, from the Applications folder). Voynich only answers to your own computer: nobody else can open it, unless you turn on <em>Use Voynich from your phone</em> in App settings and pair your phone (see <a href="manual.html#phone">Your phone</a> in the manual).</p>
+      </li>
+
+      <li class="step" id="first-start">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Make your first room</h2>
+        <p>The first time, Voynich shows a welcome page. Pick the closest starting point: <strong>a language I am learning</strong>, <strong>my studies</strong> (courses or a degree), <strong>research or a thesis</strong>, or <strong>something else</strong>. Give your room a name, say what each part of it is called (a Course, a Language, a Topic), and if you know them, type your first ones separated by commas. Then press <strong>Create my room</strong>. You can change all of it later in Settings.</p>
+        <figure class="shot"><a class="zoom" href="img/welcome.png"><img src="img/welcome.png" width="1280" height="940" alt="The Voynich welcome page: four starting points (a language, my studies, research or a thesis, something else) and a button to try it with sample data." loading="lazy"></a><figcaption>The welcome page. &ldquo;Try it with sample data&rdquo; adds a made-up semester to look around in, and a banner removes it again with one click.</figcaption></figure>
+      </li>
+
+      <li class="step" id="log-time">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Log your first session</h2>
+        <p>On the <strong>Dashboard</strong>, choose a course (or language) and an activity, then press <strong>Start</strong>. The timer runs even if you close the tab; Voynich finds it again when you come back. <strong>Pause</strong> stops the clock without ending the session, and <strong>Stop &amp; save</strong> saves it. Started late? <strong>Started earlier?</strong> moves the start back by 5, 10 or 15 minutes or more. <strong>Repeat last</strong> starts the same course and activity as your last session in one click.</p>
+        <figure class="shot"><a class="zoom" href="img/timer-running.png"><img src="img/timer-running.png" width="1280" height="860" alt="The dashboard with a running timer showing 00:00:06, a Recording label, and Pause and Stop and save buttons." loading="lazy"></a><figcaption>A session in progress.</figcaption></figure>
+        <p>Forgot to start the timer? Open <strong>Log</strong> and use <strong>Add a past session</strong>: pick the course, the activity, the date, the time and the minutes.</p>
+      </li>
+
+      <li class="step" id="goals">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Set a goal</h2>
+        <p>Open <strong>Settings</strong>. Each course has a <strong>Weekly goal</strong> in hours (it shows on the Dashboard as a progress bar) and an optional <strong>Total goal</strong> with a finish date; Voynich then tells you how many hours a week it takes to get there. Further down, <strong>This room</strong> has a <strong>Daily goal</strong>, which the Today card on the Dashboard measures your day against.</p>
+        <figure class="shot"><a class="zoom" href="img/settings.png"><img src="img/settings.png" width="1280" height="900" alt="The settings page listing three courses, each with fields for a weekly goal, a total goal and a passive switch, and the list of activities below." loading="lazy"></a><figcaption>Courses and activities in Settings.</figcaption></figure>
+      </li>
+
+      <li class="step" id="notes">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Write a note that links to others</h2>
+        <p>Open <strong>Notes</strong> and click <strong>New note</strong>. Select text and use the toolbar to format it, or paste a screenshot straight in. Tie the note to one or more of your courses, and press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to save. To link to another note, type its title between double brackets, like <code>[[Sampling]]</code>. Each note then shows which notes link to it. Switch from <strong>Cards</strong> to <strong>Graph</strong> to see how everything connects.</p>
+        <figure class="shot"><a class="zoom" href="img/graph.png"><img src="img/graph.png" width="1280" height="900" alt="The notes graph: notes, courses and books drawn as coloured dots and shapes joined by lines." loading="lazy"></a><figcaption>The notes graph.</figcaption></figure>
+      </li>
+
+      <li class="step" id="library">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Add a book</h2>
+        <p>Open <strong>Library</strong>, <strong>Books</strong> and press <strong>Add</strong>. Type an ISBN to find one exact book, a DOI to find an article, or some words to search Open Library (books) and Crossref (articles). Check the details and save. If nothing is found, press <strong>Enter it by hand instead</strong>. Then set its status (To read, Reading, Paused, Read), and type the page you are on in <strong>Now on page</strong>; Voynich works out your pace and how long is left. Pick the book in the timer, and the time you spend counts towards it.</p>
+        <p>Have the book as a PDF or EPUB? Edit the book and choose <strong>Attach a PDF or EPUB</strong>, then press <strong>Read</strong>: it opens in Voynich, at the page where you stopped. Write notes beside it, highlight and quote words with their page, and, with the AI tab on, ask about what you are reading. See <a href="manual.html#reading">Reading</a> in the manual.</p>
+        <figure class="shot"><a class="zoom" href="img/library-add.png"><img src="img/library-add.png" width="1280" height="900" alt="The Add a book or article window over the library, with a search box for an ISBN, a DOI or words, and a link to enter the details by hand." loading="lazy"></a><figcaption>Adding a book. The search only runs when you press Search.</figcaption></figure>
+      </li>
+
+      <li class="step" id="progress">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Watch your progress</h2>
+        <p><strong>Stats</strong> shows daily study time (7 days up to a year), split by course if you like, how this week compares with last week, and the totals by course and by activity. The hall&rsquo;s <strong>Stats</strong> (the hall is at the top of the sidebar) combines every room you have.</p>
+        <figure class="shot"><a class="zoom" href="img/stats.png"><img src="img/stats.png" width="1280" height="900" alt="The stats page: a bar chart of daily study time over 30 days, coloured by activity." loading="lazy"></a><figcaption>Stats, showing 30 days.</figcaption></figure>
+      </li>
+
+      <li class="step" id="safe">
+        <h2 style="margin-top:0;border-top:0;padding-top:0">Keep your data safe</h2>
+        <p>Voynich saves a copy of your data automatically once a day and keeps the last 14. In <strong>App settings, Data and backups</strong> you can press <strong>Back up now</strong>, put any saved copy back with <strong>Restore</strong>, bring in a file from anywhere on your computer with <strong>Import from a file</strong> (it shows what is in the copy first, and keeps what you have now so the restore can be undone), and download everything as one file, as a zip of readable data, or your sessions as a spreadsheet. The saved copies are on the same computer as your data, so now and then copy that folder somewhere else. The PDFs and EPUBs of your books are not in the saved copies; tick <strong>Include my books</strong> to add them to the complete copy.</p>
+        <figure class="shot"><a class="zoom" href="img/settings-data.png"><img src="img/settings-data.png" width="1280" height="900" alt="The Data and backups part of settings: three download buttons, Back up now and Import from a file buttons and the list of saved copies, each with a Restore button." loading="lazy"></a><figcaption>Data and backups.</figcaption></figure>
+      </li>
+    </ol>
+
+    <h2>Where to go next</h2>
+    <ul>
+      <li>The <a href="manual.html">full manual</a> explains every part of the program, including the AI tab, themes, exports, updates and what to do when something goes wrong.</li>
+      <li>Wondering what leaves your computer? Almost nothing, and <a href="manual.html#privacy">the manual lists all of it</a>. Inside Voynich, <strong>App settings, Privacy</strong> shows it with your own settings.</li>
+      <li>Stuck? See <a href="manual.html#troubleshooting">Troubleshooting</a>, or write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>Voynich is free to download and use, and is not open source (see the <a href="terms.html">terms of use</a>). <a href="https://github.com/cliteka-cell/voynich-releases/releases">All versions and checksums</a>.</p>
+    <p>Questions, problems or ideas: <a href="https://github.com/cliteka-cell/voynich-releases/issues">open an issue on GitHub</a> or write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>.</p>
+    <p>This page loads nothing from anywhere else: no outside fonts, scripts or rooms. Its one small script is its own and only enlarges the pictures.</p>
+  </footer>
+</div>
+<script src="site.js" defer></script>
+</body>
+</html>
