@@ -1,14 +1,12 @@
 {
-  "version": "0.55.0",
+  "version": "0.57.0",
   "date": "2026-11-05",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.55.0/Voynich-Setup-0.55.0.exe",
-  "sha256": "f5213b76d1ed439b587d9c3105d0a7f1987136b99c346761fcc21c7e90ca29e3",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.57.0/Voynich-Setup-0.57.0.exe",
+  "sha256": "96b68b11f899bf520b79a7401e6199d2d5c7d6270d324b1c86d4fd0ff0de53ba",
   "notes": [
-    "The same tabs in the hall and every room: Home, Library, Writing, Notes, Flashcards, Stats, Circles",
-    "No more sidebar: the rooms are in a menu at the start of the top bar, and the page has the whole width",
-    "Choosing another room keeps the tab you are on",
-    "Flashcards and Writing have tabs of their own; the Log is Stats, Sessions",
-    "On a phone: a bottom bar with Home, Library, Notes, Circles and More"
+    "Four new themes: Folio, Folio Night, Aero Aurora and TempleOS",
+    "Frutiger Aero is now Aero Sky: round bubbles at the edges, lower hills",
+    "TempleOS has its own square 8 by 8 letters in the bars, buttons and titles"
   ],
-  "signature": "MoC1E+7VgfKLKfjAICQjb5hEPyxN5fI4qhp0mEHnmkZ09rWOPw4UUkBwKZspVZh1XgqhoD161OSZ7iauGtDInQ=="
+  "signature": "Mitz8J1yUvBXR0NM4YvlIImaHLRrcU0bvZrnKoqnEKviWpsFj27uTYDvNIYrLSbMizqpecflmO4aMTqdf8ikpg=="
 }
