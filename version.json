@@ -1,11 +1,11 @@
 {
-  "version": "0.68.0",
+  "version": "0.69.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.68.0/Voynich-Setup-0.68.0.exe",
-  "sha256": "a80befd3553f5352f8b353c1241ddb0a7872af1e644cb2aa43c0e5c461d5278a",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.69.0/Voynich-Setup-0.69.0.exe",
+  "sha256": "5bad0f0e4081ba617c3f216d0a6d03eeb90850cf63dd6529654ed84d14c594a0",
   "notes": [
-    "Images and files in a circle's chat: an image shows blurred until you press Download",
-    "The circles page remembers where you were"
+    "Images and files in the chat are now the third choice of a circle's Files setting, off unless its maker chooses it",
+    "Delete for me: take an image or a file out of your own chat"
   ],
-  "signature": "KH2PwMt/kR5RdhVdjr3Z4srvfoNPzacTfhsFujxxJIkBmgVUgcM/r97RUK5q2D/3eDUDqbRKlwDw7bu4KW9ncw=="
+  "signature": "6XHmVg2AkRd4I6bk4/j19pGYlv5h+FBUIv1YqBkY8i1WeXR3sEZguezTKU9wZ/0LQ++U94E2D5r2f2eIucUYxA=="
 }
