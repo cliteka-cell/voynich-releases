@@ -1,12 +1,10 @@
 {
-  "version": "0.70.0",
-  "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.0/Voynich-Setup-0.70.0.exe",
-  "sha256": "52fd15c92e8893716721a02a0e71f642b016ad980fe2f4deaba13675301f0c86",
+  "version": "0.70.1",
+  "date": "2026-11-07",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.1/Voynich-Setup-0.70.1.exe",
+  "sha256": "2e28ed77307153c608c32546151468332b1e6698d11ffec74ed387fb0bb94bd3",
   "notes": [
-    "A CCRU theme: black and phosphor green, with the Numogram in the left margin",
-    "Take off the list works for files sent for your requests",
-    "A new icon: a tall card with another character of the manuscript"
+    "In flashcards, Enter shows the answer and Enter again answers Good"
   ],
-  "signature": "1gVViudNR7XC7RH+rdqf5qcQ2Z1yTFNsmbMlfeybCDB9oSR4IOPeKfqNnRuAt0OKjV1rkztEUreiVPDTEwh3Ng=="
+  "signature": "6bmuWnXKYHfd0gjGKKY6votcC7f7Pf+IzkoI6tL1yXnD+51FJYj+7QMqKVsCaugDBc8TYdbHsHoBa7r7EIzIXA=="
 }
