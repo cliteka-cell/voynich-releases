@@ -1,10 +1,10 @@
 {
-  "version": "0.70.1",
+  "version": "0.70.2",
   "date": "2026-11-07",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.1/Voynich-Setup-0.70.1.exe",
-  "sha256": "2e28ed77307153c608c32546151468332b1e6698d11ffec74ed387fb0bb94bd3",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.2/Voynich-Setup-0.70.2.exe",
+  "sha256": "5b31a019117a71f9c4e1543fa29344c5c29833dae58a968af058d2eb59644827",
   "notes": [
-    "In flashcards, Enter shows the answer and Enter again answers Good"
+    "A circle's chat keeps to the newest message while its pictures load, with a button back to it"
   ],
-  "signature": "6bmuWnXKYHfd0gjGKKY6votcC7f7Pf+IzkoI6tL1yXnD+51FJYj+7QMqKVsCaugDBc8TYdbHsHoBa7r7EIzIXA=="
+  "signature": "Y4XKc7a067R9GvkfECQEyHsWv+Ncs3m2+KoCwQTbo3ces3g44WTcjrzbff+8K819xJTqllTbjlNt9fUZsXjz9w=="
 }
