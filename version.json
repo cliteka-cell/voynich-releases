@@ -1,10 +1,11 @@
 {
-  "version": "0.67.0",
+  "version": "0.68.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.67.0/Voynich-Setup-0.67.0.exe",
-  "sha256": "b1d80180c642cfc5d62610a08a1e40d7726c16861fb0d45dc24a77f0284a4ec0",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.68.0/Voynich-Setup-0.68.0.exe",
+  "sha256": "a80befd3553f5352f8b353c1241ddb0a7872af1e644cb2aa43c0e5c461d5278a",
   "notes": [
-    "A talk in a room now goes on through every tab and page of Voynich, until you leave it"
+    "Images and files in a circle's chat: an image shows blurred until you press Download",
+    "The circles page remembers where you were"
   ],
-  "signature": "zLteL3ZEx5Ab70pC4YrLN9otnJQzqbDrW0X7RWfcS+EhTIYAFlsNYLy30KPneU+q/yaXTXzeX+hv7QfsZt8NYg=="
+  "signature": "KH2PwMt/kR5RdhVdjr3Z4srvfoNPzacTfhsFujxxJIkBmgVUgcM/r97RUK5q2D/3eDUDqbRKlwDw7bu4KW9ncw=="
 }
