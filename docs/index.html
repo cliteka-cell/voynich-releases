@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0a0e1a">
+<meta name="theme-color" content="#101713">
 <title>Voynich: a private study room that lives on your computer</title>
 <meta name="description" content="Voynich keeps your study time, notes, books and flashcards in one place, on your own Windows PC or Mac. No account, no cloud, nothing sent anywhere unless you turn something on. Free to download.">
 <meta property="og:title" content="Voynich: a private study room that lives on your computer">
@@ -11,89 +11,100 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://cliteka-cell.github.io/voynich-releases/img/dashboard.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg transform='rotate(90 32 32)'%3E%3Crect x='1.3' y='6.1' width='61.4' height='51.8' rx='10.9'/%3E%3Crect x='5' y='9.8' width='54' height='44.4' rx='7.2' fill='%23fff'/%3E%3Crect x='7.9' y='12.7' width='48.3' height='38.7' rx='4.3'/%3E%3C/g%3E%3Cpath transform='translate(32 32) scale(0.46) translate(-50 -50)' fill='%23fff' fill-rule='evenodd' d='M40.0 0.0 L45.2 -0.0 L45.7 0.3 L45.7 15.6 L46.1 16.1 L54.8 16.0 L55.1 9.8 L56.4 5.6 L59.6 2.0 L63.4 0.2 L68.0 0.2 L71.4 1.6 L74.1 4.1 L75.5 6.3 L76.2 8.3 L76.5 11.3 L76.2 14.1 L74.8 17.2 L72.8 19.6 L70.6 21.1 L68.1 22.1 L61.2 22.4 L60.7 30.0 L59.7 32.4 L58.0 34.6 L55.7 36.3 L53.3 37.3 L45.7 38.0 L45.8 78.3 L59.0 78.5 L62.1 79.2 L64.5 80.6 L66.6 82.6 L67.9 84.8 L68.6 86.9 L68.7 91.3 L67.6 94.4 L64.5 97.9 L60.8 99.7 L57.3 100.0 L54.1 99.3 L51.7 97.9 L49.7 96.0 L48.0 93.3 L47.3 90.3 L47.4 87.9 L48.2 84.7 L33.9 84.6 L30.7 83.9 L27.8 82.2 L26.0 80.4 L24.3 77.7 L23.6 75.3 L23.5 72.1 L24.0 69.4 L25.4 66.6 L27.7 64.1 L29.5 62.9 L32.2 61.8 L39.6 61.2 L39.6 37.9 L30.5 37.8 L29.7 38.6 L29.6 40.1 L24.6 42.9 L23.7 41.2 L23.5 39.3 L23.6 37.4 L24.6 35.1 L26.1 33.5 L27.7 32.3 L30.3 31.6 L39.5 31.4 L39.6 22.9 L39.1 22.3 L23.7 22.3 L23.5 16.4 Z M65.2 6.2 L67.4 6.4 L69.7 8.4 L70.4 10.6 L70.0 13.2 L68.9 14.8 L67.3 15.9 L61.4 16.1 L61.2 11.1 L61.5 9.1 L63.0 7.1 Z M39.3 9.4 L39.6 9.7 L39.5 15.9 L32.9 16.1 L32.9 15.7 Z M46.0 22.3 L54.8 22.4 L54.9 27.8 L53.6 30.2 L51.2 31.5 L45.8 31.4 L45.7 22.9 Z M34.4 67.7 L39.1 67.7 L39.6 68.0 L39.4 78.4 L33.6 78.3 L31.6 77.3 L30.1 75.5 L29.6 73.0 L30.1 70.6 L32.0 68.6 Z M57.3 84.7 L59.0 84.7 L60.7 85.4 L61.8 86.5 L62.5 87.9 L62.7 89.6 L62.1 91.5 L60.5 93.1 L58.8 93.8 L57.1 93.8 L55.5 93.1 L54.1 91.7 L53.6 90.2 L53.6 88.1 L54.4 86.5 L55.5 85.4 Z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="guide.css">
 <style>
+/* The landing page: guide.css gives the fonts, the bar and the rest; these are the same two colour sets (a test holds them equal). */
 :root {
   color-scheme: dark light;
-  --bg: #0a0e1a;
-  --surface: #12172a;
-  --surface-2: #1a2138;
-  --border: #262f4d;
-  --fg: #e8ebf5;
-  --muted: #8b93b0;
-  --accent: #6d7fff;
-  --accent-fg: #0a0e1a;
-  --glow: rgba(109, 127, 255, 0.16);
+  --bg: #101713;
+  --surface: #17201b;
+  --surface-2: #1d3730;
+  --border: #2b3a32;
+  --fg: #e2e9e3;
+  --muted: #98a99f;
+  --accent: #7cc0ad;
+  --accent-fg: #101713;
+  --ochre: #d8a852;
+  --ochre-soft: #33291a;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f5f6fb;
-    --surface: #ffffff;
-    --surface-2: #eceef6;
-    --border: #d9dcea;
-    --fg: #161a2a;
-    --muted: #62697f;
-    --accent: #4a59e0;
+    --bg: #edf0ea;
+    --surface: #f8faf6;
+    --surface-2: #dce9e2;
+    --border: #cbd5cc;
+    --fg: #1b2620;
+    --muted: #56675d;
+    --accent: #2c6b5e;
     --accent-fg: #ffffff;
-    --glow: rgba(79, 95, 232, 0.1);
+    --ochre: #8f6218;
+    --ochre-soft: #f1e6cf;
   }
 }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  background: var(--bg) radial-gradient(ellipse 900px 480px at 50% -8%, var(--glow), transparent 60%) no-repeat;
-  color: var(--fg);
-  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
-a { color: var(--accent); }
-a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
-header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0; }
-.brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; color: var(--fg); text-decoration: none; }
-nav a { margin-left: 18px; color: var(--muted); text-decoration: none; font-size: 15px; }
-nav a:hover { color: var(--fg); text-decoration: underline; }
-.hero { padding: 40px 0 24px; text-align: center; }
-h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.02em; }
-.lead { font-size: clamp(17px, 2.2vw, 20px); color: var(--muted); max-width: 680px; margin: 0 auto 28px; }
-.button { display: inline-block; background: var(--accent); color: var(--accent-fg); font-weight: 600; text-decoration: none; padding: 14px 28px; border-radius: 12px; font-size: 18px; }
-.button:hover { filter: brightness(1.1); }
-.button.quiet { background: transparent; color: var(--fg); border: 1px solid var(--border); margin-left: 8px; }
-.small { font-size: 14px; color: var(--muted); max-width: 640px; margin: 16px auto 0; }
-.shot { margin: 0; }
-.shot img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35); }
-.shot figcaption { color: var(--muted); font-size: 14px; margin-top: 10px; text-align: center; }
-.hero .shot { margin-top: 40px; }
-section { padding: 48px 0 8px; }
-h2 { font-size: clamp(24px, 3.4vw, 32px); margin: 0 0 8px; letter-spacing: -0.01em; }
-.section-lead { color: var(--muted); margin: 0 0 28px; max-width: 720px; }
-.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
-.card h3 { margin: 0 0 6px; font-size: 18px; }
+.hero { padding: 56px 0 8px; display: grid; gap: 16px; }
+.eyebrow { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.hero h1 { font-size: clamp(44px, 7.2vw, 76px); line-height: 1.04; margin: 0; max-width: 19ch; }
+.hero .lead { font-size: clamp(17px, 2.1vw, 19px); margin: 0; max-width: 60ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; }
+.fact { font-size: 13px; border: 1px solid var(--border); border-radius: 999px; padding: 3px 11px; background: var(--surface); }
+.fact b { font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 0; }
+.actions .button { font-size: 16.5px; padding: 13px 22px; }
+.small { font-size: 13.5px; color: var(--muted); max-width: 78ch; margin: 0; }
+.hero .shot { margin: 28px 0 0; }
+.hero .shot figcaption { text-align: left; }
+
+/* each part: a rule above, the title in the book face, a short line under it */
+section { padding: 56px 0 4px; scroll-margin-top: 64px; }
+section > h2 { font-size: clamp(30px, 4.4vw, 40px); margin: 0 0 8px; padding-top: 0; border-top: 0; }
+.part-no { display: block; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px; padding-top: 14px; border-top: 1px solid var(--border); }
+.section-lead { color: var(--muted); margin: 0 0 26px; max-width: 64ch; }
+
+/* what it does: numbered leaves, two by two */
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); counter-reset: leaf; }
+.card { counter-increment: leaf; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px 20px; display: grid; grid-template-columns: 46px 1fr; gap: 4px 12px; align-content: start; }
+.card::before { content: counter(leaf); grid-row: span 2; font-family: var(--display); font-size: 40px; line-height: 0.95; color: var(--accent); }
+.card h3 { margin: 0; font-size: 23px; }
+.card h3 a { color: var(--fg); text-decoration: none; }
+.card h3 a:hover { color: var(--accent); text-decoration: underline; }
 .card p { margin: 0; color: var(--muted); font-size: 15px; }
+#learn .card::before { content: counter(leaf, upper-roman); font-size: 32px; }
+
 .gallery { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
 .gallery .wide { grid-column: 1 / -1; }
-.card h3 a { color: var(--fg); text-decoration: none; }
-.card h3 a:hover { text-decoration: underline; }
+.shot figcaption { text-align: center; }
 @media (max-width: 520px) { .gallery { grid-template-columns: 1fr; } }
-ol.steps { padding-left: 22px; }
-ol.steps li { margin: 0 0 12px; }
-.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px; }
-.panel ul { margin: 12px 0 0; padding-left: 20px; }
-.panel li { margin: 0 0 8px; }
-code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; font-size: 0.92em; }
-details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; margin: 0 0 10px; }
-summary { cursor: pointer; font-weight: 600; }
-details p { margin: 10px 0 0; color: var(--muted); }
-footer { margin-top: 56px; padding: 28px 0 44px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
-footer p { margin: 0 0 8px; }
+
+/* privacy: a sheet with a ruled list, each thing that can leave named in bold */
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 22px 24px; }
+.panel ul { list-style: none; margin: 14px 0 0; padding: 0; }
+.panel li { padding: 11px 0; border-top: 1px solid var(--border); font-size: 15px; }
+.panel li:last-child { border-bottom: 1px solid var(--border); }
+.panel li strong { font-weight: 600; color: var(--accent); }
+.panel > p:last-child { font-size: 15px; }
+
+/* install: the roadmap's order, a big numeral to each step */
+#install ol.steps { counter-reset: inst; max-width: 820px; }
+#install ol.steps > li { counter-increment: inst; position: relative; padding: 14px 0 14px 60px; border-top: 1px solid var(--border); }
+#install ol.steps > li:last-child { border-bottom: 1px solid var(--border); }
+#install ol.steps > li::before { content: counter(inst); position: absolute; left: 0; top: 10px; font-family: var(--display); font-size: 38px; line-height: 1; color: var(--accent); }
+#questions details p { max-width: 72ch; }
+@media (max-width: 620px) {
+  .hero { padding-top: 36px; }
+  .card { grid-template-columns: 38px 1fr; padding: 16px; }
+  .card::before { font-size: 34px; }
+  .panel { padding: 18px 16px; }
+  #install ol.steps > li { padding-left: 44px; }
+  #install ol.steps > li::before { font-size: 30px; }
+}
 </style>
-<link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" href="gallery.css"><link rel="stylesheet" href="gallery.css">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="#top">Voynich</a>
-    <nav aria-label="Sections">
+    <nav class="site" aria-label="Sections">
       <a href="#features">What it does</a>
       <a href="#privacy">Privacy</a>
       <a href="#install">Install</a>
@@ -106,9 +117,16 @@ footer p { margin: 0 0 8px; }
 
   <main id="top">
     <div class="hero">
-      <h1>A study room that stays on your computer</h1>
+      <span class="eyebrow">A private study room</span>
+      <h1>A study room that <em>stays</em> on your computer</h1>
       <p class="lead">Time, notes, books and flashcards in one place, for languages, a degree, research or anything else you are learning. No account, no cloud, and nothing leaves your computer unless you turn something on.</p>
-      <p>
+      <div class="facts">
+        <span class="fact"><b>Free</b></span>
+        <span class="fact"><b>No account</b></span>
+        <span class="fact">Your data <b>on your computer</b></span>
+        <span class="fact"><b>Windows</b> and <b>Mac</b></span>
+      </div>
+      <p class="actions">
         <a class="button" href="https://github.com/cliteka-cell/voynich-releases/releases/latest/download/Voynich-Setup.exe">Download for Windows</a>
         <a class="button" href="https://github.com/cliteka-cell/voynich-releases/releases/latest/download/Tracker-Mac.dmg">Download for Mac</a>
         <a class="button quiet" href="guide.html">Read the guide</a>
@@ -121,6 +139,7 @@ footer p { margin: 0 0 8px; }
     </div>
 
     <section id="features" aria-labelledby="features-title">
+      <span class="part-no">01</span>
       <h2 id="features-title">What it does</h2>
       <p class="section-lead">Everything a student or self-learner tends to keep in five different places, in one program that opens in your browser and runs on your own PC.</p>
       <div class="grid">
@@ -137,6 +156,7 @@ footer p { margin: 0 0 8px; }
     </section>
 
     <section id="look" aria-labelledby="look-title">
+      <span class="part-no">02</span>
       <h2 id="look-title">A closer look</h2>
       <p class="section-lead">Click any picture to see it larger. All of them show made-up sample data, and the <a href="manual.html">full manual</a> has more.</p>
       <div class="gallery single">
@@ -159,6 +179,7 @@ footer p { margin: 0 0 8px; }
     </section>
 
     <section id="learn" aria-labelledby="learn-title">
+      <span class="part-no">03</span>
       <h2 id="learn-title">Learn it your way</h2>
       <p class="section-lead">Two guides, written for people who are not technical.</p>
       <div class="grid">
@@ -168,6 +189,7 @@ footer p { margin: 0 0 8px; }
     </section>
 
     <section id="privacy" aria-labelledby="privacy-title">
+      <span class="part-no">04</span>
       <h2 id="privacy-title">Your data stays with you</h2>
       <p class="section-lead">Voynich has no account and no server of its own. Everything you log, write and save is kept in one file on your computer.</p>
       <div class="panel">
@@ -188,6 +210,7 @@ footer p { margin: 0 0 8px; }
     </section>
 
     <section id="install" aria-labelledby="install-title">
+      <span class="part-no">05</span>
       <h2 id="install-title">Install it</h2>
       <ol class="steps">
         <li><a href="https://github.com/cliteka-cell/voynich-releases/releases/latest/download/Voynich-Setup.exe">Download <code>Voynich-Setup.exe</code></a> (always the newest version). Older versions and checksums are on the <a href="https://github.com/cliteka-cell/voynich-releases/releases">releases page</a>.</li>
@@ -199,6 +222,7 @@ footer p { margin: 0 0 8px; }
     </section>
 
     <section id="questions" aria-labelledby="questions-title">
+      <span class="part-no">06</span>
       <h2 id="questions-title">Questions</h2>
       <details><summary>Is it really free? Is it open source?</summary><p>It is free: downloading and using Voynich costs nothing. It is not open source: the program&rsquo;s code is not published. The <a href="terms.html">terms of use</a> say what you may do with it.</p></details>
       <details><summary>Does it work without the internet?</summary><p>Yes. The timer, log, notes, goals, stats, backups and the AI tab with a model on your own computer all work offline. Only book lookups, covers, updates and an online AI service need a connection.</p></details>
