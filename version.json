@@ -1,10 +1,10 @@
 {
-  "version": "0.70.2",
-  "date": "2026-11-07",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.2/Voynich-Setup-0.70.2.exe",
-  "sha256": "5b31a019117a71f9c4e1543fa29344c5c29833dae58a968af058d2eb59644827",
+  "version": "0.70.3",
+  "date": "2026-11-08",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.70.3/Voynich-Setup-0.70.3.exe",
+  "sha256": "499bf4dababe12288d814cfda728a878c62de3f0d9065f03ee9cfd633d20db68",
   "notes": [
-    "A circle's chat keeps to the newest message while its pictures load, with a button back to it"
+    "Flashcards brought in from Anki keep each part on its own line, as in Anki"
   ],
-  "signature": "Y4XKc7a067R9GvkfECQEyHsWv+Ncs3m2+KoCwQTbo3ces3g44WTcjrzbff+8K819xJTqllTbjlNt9fUZsXjz9w=="
+  "signature": "bSynXdrFOtdKbJv+bgV6HZRP23RbTQTyrggE2n9IYORtLZxZWZDfQkc3AUvbPLfrSHePELR1vSEb2jRYjbEfQg=="
 }
