@@ -1,12 +1,13 @@
 {
-  "version": "0.71.0",
+  "version": "0.72.0",
   "date": "2026-11-11",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.71.0/Voynich-Setup-0.71.0.exe",
-  "sha256": "9601a10f38f0b8c049d19ac315d6cc5c0d84eb5fb1ee1961fcdb0f569a6db450",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.72.0/Voynich-Setup-0.72.0.exe",
+  "sha256": "36dfce7b24125c73f1d054b99e32969ad31e911c8d41f5e1ec247f23126ee773",
   "notes": [
-    "The graph gives each course a home of its own: choosing one course, then All, no longer tangles them",
-    "A canvas beside Cards and Graph: put notes, books and your own words on a board and draw labelled lines",
-    "An open note shows the notes around it, and the graph lists its loose ends"
+    "The AI answers questions your notes do not cover, clearly labelled Not from your notes, instead of refusing",
+    "An Ask button on every page: the AI beside what you are doing, knowing the passage, note or document you have open",
+    "Connecting an online AI is easier: pick Gemini, OpenAI, Mistral and others from a list, and Test says what is wrong",
+    "Look up can use a small, fast model, and no longer makes up pronunciations"
   ],
-  "signature": "yePxH6KohWokapeYnsplgS4OZ7FRtCZ0ti0IJJEaaTAk9sU1cOryMPPdss7nVufQbT29B06B6icPdVdZjOnVsA=="
+  "signature": "ocU46Gjj26COaXvQEtD3XvWQxbL3sXl2uOQRHVvv3jwjqQAHbNh9udUP4XSXqAy+3c5qi6P9RE23L5jh0RwmWg=="
 }
