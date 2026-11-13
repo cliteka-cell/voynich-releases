@@ -1,12 +1,10 @@
 {
-  "version": "0.80.0",
+  "version": "0.80.1",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.80.0/Voynich-Setup-0.80.0.exe",
-  "sha256": "f19bb5356089fd2a413eda48faa274da211fda03b140733bd10328b861d8d5b8",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.80.1/Voynich-Setup-0.80.1.exe",
+  "sha256": "c6d5b70ed874adaad84c1bcae1b190b8107390700598321d1a1051d8393570e2",
   "notes": [
-    "Voynich in a window of its own on Windows, like any program, not a browser tab",
-    "Start with Windows, and open PDFs, EPUBs, Markdown and Word files with Voynich from Explorer",
-    "Voynich documents (.vyn): a paper with its versions, comments, pictures and cited books in one file"
+    "A file double-clicked in Explorer while Voynich is running now opens that file, not the page you were on"
   ],
-  "signature": "5u+cZpBG1vjDzIhnZEUD4RnFQnzWl0cpj6UWHXBL+EFlt37Wr+2cZFQqrjUcpycez24inuIIRFAppEwvLA5wXA=="
+  "signature": "2hgk0DWO9ZVlejS1WHUZkiDCrwHoY7niuoqYCdwQLb1jEVolO9yAuLXbGfI2HDvl15qKYHfwlGmr9zpBNzIafA=="
 }
