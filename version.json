@@ -1,12 +1,13 @@
 {
-  "version": "0.82.0",
-  "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.82.0/Voynich-Setup-0.82.0.exe",
-  "sha256": "011ecfe5682fd7665ffc8e0eee00a91ed97ce5326078c5e774e9ccf46b943b34",
+  "version": "0.83.0",
+  "date": "2026-11-14",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.83.0/Voynich-Setup-0.83.0.exe",
+  "sha256": "1d4d64416c415e13f4ca15926e40cfc5b6e5556f3ce68904c02063ab5494f814",
   "notes": [
-    "On a Mac, Voynich opens in a window of its own, with the Mac's three buttons in its top bar",
-    "On a Mac, the app is now called Voynich (an updated Tracker renames itself), and your data stays where it was",
-    "On a Mac, start Voynich when you log in, and open PDFs, EPUBs, Markdown and Word files with it from the Finder"
+    "Security: only you can open Voynich now, not another account on this computer or a web page",
+    "Lock a complete copy of your data with a passphrase, and clear deleted things out of the data file with Compact now",
+    "Study circles hold up against a hostile member: nothing a member sends can stop your circles or fill your disk",
+    "An update that is not signed is shown with a warning and no download link"
   ],
-  "signature": "5KlMJkKtPdiDBY+jqezTQ2z+eWqU/e0yhV9VvfGm0gqIyQRPg6MeHizLQoTxP00wOpDCYKVroycyXLZ7FvP/tQ=="
+  "signature": "MqCqGbAPusB+kPVHow9lsUj+zQ1aPlJ2h0yh+1zYuQ7Zx5EDb8ZBcgkZaaX+UPnPwkh15zar8upfVb4r+LQ0gg=="
 }
