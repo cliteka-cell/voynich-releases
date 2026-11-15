@@ -1,13 +1,13 @@
 {
-  "version": "0.84.0",
-  "date": "2026-11-14",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.84.0/Voynich-Setup-0.84.0.exe",
-  "sha256": "e8199fa761695b2cc154d27cfc62313af695d108248d2f030679c926791d62eb",
+  "version": "0.85.0",
+  "date": "2026-11-15",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.85.0/Voynich-Setup-0.85.0.exe",
+  "sha256": "895f6aaeeb2610f53c29a5ca270f0d8c52a9b6102b1015f13d63e718c3e27bd1",
   "notes": [
-    "A wide window is used, not left blank: Library and Writing show the book or document you click beside the list",
-    "Choose your microphone and speakers for voice in circles (User settings, Voice and video)",
-    "Flashcards, Stats and Settings fill the window: Today beside your decks, totals beside your sessions",
-    "One look across the app: the same page titles, spacing and depth for cards, menus and dialogs"
+    "Arrange Home your way: Edit Home lets you drag, resize and remove its cards, with Undo and Reset",
+    "Add a widget: a note, a scratch pad, a deck, a shelf, a document, a countdown, study time, a goal ring and more",
+    "Home's cards use the room they are given: on a wide card they lay out in columns instead of a long strip",
+    "On a phone, put Home's cards in the order you want and take away the ones you do not"
   ],
-  "signature": "R4lUoLKuQqgOx6qPrjLIo8lbxYiyqyrnso4VGLbzHWdJazHYymAVWZ42UfJtmTSI6enZrO89VlLwGypZoEc7DA=="
+  "signature": "Ny8zsnpJsOf03v1GZCGm/fyKTEz7oz+mVwkElTpm4sVlAD32NsxfjO5lnW/PCI0qRQre6s7Hx/f6dye6cBMu1A=="
 }
