@@ -1,13 +1,10 @@
 {
-  "version": "0.88.0",
+  "version": "0.88.1",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.88.0/Voynich-Setup-0.88.0.exe",
-  "sha256": "47d27c91e925096f293ea3bceeaec5d30c77abcc8247a871205854d1e712e771",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.88.1/Voynich-Setup-0.88.1.exe",
+  "sha256": "9c0957556d4ad629cc4bc89a8e9973decbaf8291803dc088567c289f887428e2",
   "notes": [
-    "Look up is a dictionary now, with no AI: meanings, kind of word, pronunciation and an example",
-    "A form leads to its word: ging to gehen, Häuser to Haus, gitti to gitmek",
-    "Download dictionaries to look words up offline: English, German, Turkish, Chinese and six more",
-    "Without one, Wiktionary is asked for the word only; Offline only turns that off"
+    "PDFs scroll smoothly again in Voynich's window, and their pages come at once instead of after seconds"
   ],
-  "signature": "+r1SJlgLMddqprWf4dbm+oIJj/fplL0HmTieTogfivD12+rzWY6RcS8SqIvWrx0WHHuGCSK6DfzivhoSAwU9ww=="
+  "signature": "x/x02A1eIZBVD/NPRL5aeFbdCZRCEuBKKdf/VFRHIgTThiaNy/tBvgKX+lIz8XTnXmjJI3mRYGlwJZJvTipWbg=="
 }
