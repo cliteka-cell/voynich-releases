@@ -1,13 +1,13 @@
 {
-  "version": "0.91.0",
+  "version": "0.92.0",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.91.0/Voynich-Setup-0.91.0.exe",
-  "sha256": "07ca50ee34d95ff9dba402112b41650b89998858efeabcc90194098ec2d54d22",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.92.0/Voynich-Setup-0.92.0.exe",
+  "sha256": "8679911fd3eb7dc9f865a231a36365eb497020c9a55ecd4608161e663015b400",
   "notes": [
-    "A new look made from Voynich's icon: Voynich (ink black and bone) and Voynich Light, the look of a new Voynich",
-    "A loading screen while Voynich starts: the icon's letter grows from its middle out, then shines",
-    "Checking for updates and installing them are on unless you turn them off",
-    "Words that did not fit (TempleOS's wide letters, long page titles) now fit or wrap"
+    "Your profile: one name, picture, colour and line about yourself, brought into your circles",
+    "Making or joining a circle brings your profile, or gives that circle a profile of its own",
+    "All of a circle's settings in one place, voice and notices too, with a search",
+    "The loading screen's letter grows and shines on every computer, and opening Voynich during an update waits for it"
   ],
-  "signature": "3nV1j1QrZoeqFDy8IjXQua9g/uDveY3KXUaxHA5R/VmsmS2f0FlQxkRHSQwGXNtEoMthr6VWc5MCoeVrNnz1MQ=="
+  "signature": "T3o8uyXWIfsu1NxgjsgDdpjb8KHleGPgYNACTEzO0Zm5JhIvGtSUucB8OmINjhzVXZbOrZtzLpcDcvEckk2ypA=="
 }
