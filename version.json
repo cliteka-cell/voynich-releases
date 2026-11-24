@@ -1,12 +1,12 @@
 {
-  "version": "0.96.0",
+  "version": "0.97.0",
   "date": "2026-11-24",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.96.0/Voynich-Setup-0.96.0.exe",
-  "sha256": "b03c815791e54e7d6a0e10b1c2d7c48078306650958525274f2d15021d98263c",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.97.0/Voynich-Setup-0.97.0.exe",
+  "sha256": "653a0b5642f34ab98202c07dfc6e29c39077f2a1d6d3b9aa5ef6779cc7ce690a",
   "notes": [
-    "Add a book finds books again: its search had stopped answering in 0.88.0",
-    "A dropped article is named and filled in from the DOI on its first page; an arXiv preprint from its arXiv number",
-    "Card info while reviewing (I): a card's memory and every answer, without leaving the review"
+    "Search a circle's channel: Ctrl+F, any case, accents and Turkish letters alike",
+    "Mentioned in, not linked: the notes that name a note without linking it, with Link",
+    "Days off: weekdays your streak passes over"
   ],
-  "signature": "wlDzKKZiL/vM85nh/FguBmHIflDfuie5gJQQOrnh9L1uI9JM4azIMh06b98wdGEqWhawmIzFM/qt/Ax3FWCQSw=="
+  "signature": "22bv3yxps25fHaRl21UAwKUK8E5NBcYlY2aWuzECX0uoTjNBM9eFmPyUxpBbpJnBIf0V8sJJKyvZqoidEh1Myw=="
 }
