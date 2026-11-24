@@ -1,14 +1,14 @@
 {
-  "version": "0.94.0",
-  "date": "2026-11-23",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.94.0/Voynich-Setup-0.94.0.exe",
-  "sha256": "3c0fecf7e28404294e9d0681eccec475fb09a53ed6e147cc8be8797bca7739e7",
+  "version": "0.95.0",
+  "date": "2026-11-24",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.95.0/Voynich-Setup-0.95.0.exe",
+  "sha256": "41194163faa3aae1966118a798ef4274496e8fff77d36f499e6c422cf981394d",
   "notes": [
-    "Read aloud from the sentence you click, and on, page after page, with the sentence lit up as it is read",
-    "Pause, back a sentence and next sentence while reading aloud; Read from here on selected words",
-    "Selecting text in a PDF no longer shows its hidden text over the page (Voynich, Frutiger Aero and TempleOS themes)",
-    "A book whose own text is garbled is noticed, and its text can be read again with OCR",
-    "Page numbers do not match? on every PDF, an excerpt that starts at page 45 too"
+    "Highlights and notes made in another program (Acrobat, an iPad, Zotero) can be brought in from a PDF",
+    "A link in a book goes to its place, and Back returns you to where you were",
+    "Pages: every page of a PDF small, to find a chapter by its look",
+    "Night pages: light letters on a dark page",
+    "New reader keys: H highlights the selection, G goes to a page, Home and End"
   ],
-  "signature": "amz1ZIbUhw6RPcvYfMrgPlQjN8Qov2gB1cjQuemNop9+RU8PxZpnE1HMnE8Pf022vJjcUyCRMHcQLeX01xJFQw=="
+  "signature": "tHYcFylUDd5BOPZJgV9ksAmK3+FtY9Ex+4qFdWwiqZqRL1kdvcx2zeoeBtJQ3v2RIejk2AZW1IDVjQHebAFroA=="
 }
