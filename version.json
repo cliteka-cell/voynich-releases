@@ -1,10 +1,10 @@
 {
-  "version": "0.99.2",
-  "date": "2026-11-24",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.99.2/Voynich-Setup-0.99.2.exe",
-  "sha256": "f1cd401fea0a71834115418b09d43df424e695acbf9b05b7d53a5c5fcf227049",
+  "version": "0.100.0",
+  "date": "2026-11-25",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.100.0/Voynich-Setup-0.100.0.exe",
+  "sha256": "d3d8af47768610dccaa3e9af5ba384b70840a5fe51d3011ee248b6167eff6b32",
   "notes": [
-    "Writing's PDF in Voynich's window: A4 pages with real text, laid out as on the screen"
+    "Strongest noise suppression for voice channels: also takes out keyboard clicks and steady hiss"
   ],
-  "signature": "cibE92vM97USvgbgeRQXM+CUPKErdNCDLriSI28cNJBpJniqQt38OOS58dCoJ+Rdn3fgTL+U9GrTx8GalR7AXA=="
+  "signature": "12/xjyjvcnz9MNSMQt3nbQdP7u60HgCkrOs7ZHbwCIcnuJag/ifQ9/X0Edb04DcuVGSrkl/emV1x0cGto2kFjQ=="
 }
