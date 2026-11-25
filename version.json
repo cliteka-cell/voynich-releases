@@ -1,11 +1,10 @@
 {
-  "version": "0.110.0",
+  "version": "0.110.1",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.110.0/Voynich-Setup-0.110.0.exe",
-  "sha256": "4f5730d101702136a8a1ed079bdae87859d7cda945d9711ab61403e0450b26ef",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.110.1/Voynich-Setup-0.110.1.exe",
+  "sha256": "6acd1b17afc05335d3072c5bc5c53370fbc8b7696181ddc50ba2996b07672a45",
   "notes": [
-    "Talk and use the camera in calls from your phone, on Voynich's own secure address",
-    "Voice messages and offline flashcards on the phone at home too, with no Tailscale"
+    "The phone's QR codes scan again, and the secure address's can hold Tailscale's address"
   ],
-  "signature": "Rj7sEwoq/Jk3aj4/mpjOHTVxfyBbqkAm0LQ0tqOzAenokJSWvqYmsbTs+OAypch1ofXcJ0yrktwoL/qr6yy49Q=="
+  "signature": "U2o0Z5/epbNrqhhT1+3kwxon+51h0hiX5fx9UU3BDoYc63geqbBB6N7AIWDK0o2pFwU/Crb2kiBq6iuJGc8NeA=="
 }
