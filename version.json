@@ -1,11 +1,11 @@
 {
-  "version": "0.111.0",
+  "version": "0.112.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.111.0/Voynich-Setup-0.111.0.exe",
-  "sha256": "68322c74fea1b26c47538680bdeaabc6b6d8927c601c6a176e74ea78ca0e23b4",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.112.0/Voynich-Setup-0.112.0.exe",
+  "sha256": "c6ae2b1d99545891f57e250849bacedfb0419d11bbac21f1b6e2df84104bd950",
   "notes": [
-    "Cameras in calls on your phone, and watching a screen someone shares",
-    "Read aloud no longer sends iPhone users after voices web pages cannot use"
+    "Every detail of a theme: each colour, font, size, space, corner, line, shadow and motion",
+    "A panel at the window's side, with the page beside it showing each change"
   ],
-  "signature": "iLvnYKVpI0SxcOIzspEFwlt/jqxHNUeezyPrY6R4lvvI4bAjqUtdEBq6l0+pv9st3tpSdqEP2yLjTkNjsB35AA=="
+  "signature": "6ht4z4sZElWrdaQ8T/U/Oii21CBAp7m6Auf05NPt3MbuLq0mc4VAWtQkMrv+aOFI+yw9TVGlhtXOcMlEFpx5+w=="
 }
