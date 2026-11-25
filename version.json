@@ -1,12 +1,13 @@
 {
-  "version": "0.102.0",
+  "version": "0.103.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.102.0/Voynich-Setup-0.102.0.exe",
-  "sha256": "479015b167ee7ced06fc6c83a59928564644a455dfe06b845d72796cc0f75ade",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.103.0/Voynich-Setup-0.103.0.exe",
+  "sha256": "ec004fea48cd3978d2c321708cc5f73b2e6f37793f3314080c2d859eb2f7d641",
   "notes": [
-    "Edit a message you sent, or take it back for everyone",
-    "Delete any message for yourself",
-    "Two members with the same name each get a mark"
+    "Up to three screen shares at once in a voice channel",
+    "Call layouts: Grid, Speaker and Pinned",
+    "A camera can fill its tile or fit in it",
+    "Get a reading's book from whoever started it"
   ],
-  "signature": "kndOuzeFaEKWmHj55+qNT+7cCf3ENCQ4SdTrE979oLwWWz/RXCOgmO40aUVQX7toZve5UoqrXaMiQNcl8jw2uA=="
+  "signature": "wyFEqai4tZl0XZvbt9uZVe57vHHlEcyc05I9S3JyODJTlPyI66KhvLeGZgfj6w57G+M8D2e1aBUrfYA5TrDsOQ=="
 }
