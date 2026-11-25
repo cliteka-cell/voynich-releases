@@ -1,11 +1,11 @@
 {
-  "version": "0.113.0",
+  "version": "0.114.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.113.0/Voynich-Setup-0.113.0.exe",
-  "sha256": "e7bc037d18d942344976708bc68b705e3af039941c95c3df01b229f7d2793695",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.114.0/Voynich-Setup-0.114.0.exe",
+  "sha256": "5dafffe3c6f191224ebc4edb6a7522c5fcad4805b177b57ed80be321294dfde2",
   "notes": [
-    "Each part of Voynich on its own: 35 parts, from the top bar to call tiles and note cards",
-    "Click a part of the page and its settings open"
+    "Themes of your own: copy any theme, name it, change anything, keep as many as you like",
+    "A background picture, undo and redo, and your own CSS with a safe start"
   ],
-  "signature": "u+2zEu/L5wIDlit76XfTQK/jhb5/ToDJoRq1cp7EBaheJvSkwygcHaRnJq13rw+VrCSy+pXWkRzH/NOvV7bE8A=="
+  "signature": "TScVMM4PWnonlEVgVpciGGt+towcoa6OZY6QP+d7RkvLGDXso22gRLLOgeIJnsKxaLuSWU80r9q9XRGdzpC3GQ=="
 }
