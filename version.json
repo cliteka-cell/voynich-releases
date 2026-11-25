@@ -1,11 +1,12 @@
 {
-  "version": "0.107.0",
+  "version": "0.108.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.107.0/Voynich-Setup-0.107.0.exe",
-  "sha256": "dbc6b24c745ab703c781e3411080f57d52fa94cbddf1dbeb47fec659c7d6c9e0",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.108.0/Voynich-Setup-0.108.0.exe",
+  "sha256": "646c3367fcc781674c5acfdd346ab3db6d413f76274b2728cb5eb166e3987438",
   "notes": [
-    "Calls, cameras and screen sharing in Firefox",
-    "The reader's word bar never hides a button on a narrow phone"
+    "One Settings for circles: everything yours and everything about the circle, in one window",
+    "The gear by your name opens it at Your profile; the circle's name opens it at Overview",
+    "Your page in a circle shows what the others see; Edit in settings changes it"
   ],
-  "signature": "SXowiXp0hx8prv1Ia8h12TqriiD0LpkufeBm330DYfgjOkZz2cxSi0/dLdgQ66r7tqhiH39J3D08CFcOoR1CjA=="
+  "signature": "5lsQwVcw/h7uvfCmgtTwlRmGpLFKWJD0/YhuWnLm0GdKmURMAikv0ynE4yWxc922kP4IXw26fvglAmj2IaQjpg=="
 }
