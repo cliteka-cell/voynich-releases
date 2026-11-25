@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Voynich does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.103.0; later versions may add things, and Settings, About and updates lists what changed.</p>
+  <p class="lead">Everything Voynich does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.104.0; later versions may add things, and Settings, About and updates lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -742,9 +742,12 @@
           <li><strong>When:</strong> whenever both computers are on, a change on one reaches the other within about half a minute. A computer that was closed catches up when it is opened again. The first sync of two full computers can take longer: books&rsquo; files go a few hundred megabytes at a time.</li>
           <li><strong>Courses and activities with the same name</strong> in the same room are one, not two, even though each computer made its own.</li>
           <li><strong>Changed on both while apart:</strong> the newer change wins, row by row (a card, a book&rsquo;s details, a session). A note or a document changed on both computers while they were apart keeps both: the newer stays, and the other is kept beside it as &ldquo;(the other version, date)&rdquo;, on both computers, once.</li>
+          <li><strong>Which is newer:</strong> each change carries a count as well as the time, and a change made after another computer&rsquo;s change came is always counted after it, so a computer whose clock is wrong cannot make an older change win over one made after it. Changes made on two computers while they were apart are still put in the order of their clocks.</li>
+          <li><strong>A card answered on both while apart:</strong> every answer is kept, and the card&rsquo;s next review is worked out again from all of them, in the order they were given, as if one computer had had them all. (Answers given on a Voynich older than 0.104 do not keep what is needed for that; then the newer schedule stays, as before.)</li>
+          <li><strong>A note deleted on one computer</strong> goes into the other computer&rsquo;s bin too (Notes, <em>Bin</em>), for 30 days, with its subfields, pictures and links, so a note deleted by mistake can be put back on either. Put back on one, it comes back on the other and leaves its bin.</li>
           <li><strong>Safety:</strong> the first time changes come from another computer, a copy of your data is saved first (Settings, <em>Data</em>). Changes from another computer are brought in all at once or not at all, and a trouble is shown there in words.</li>
           <li>The section lists your computers, whether each is on now, how many of this computer&rsquo;s changes each has not had yet, and what the last sync brought. <em>Stop syncing here</em> stops it; what came stays.</li>
-          <li>Two computers that both brought in the same Anki deck before they were paired show its cards twice (they were made separately); delete one copy (Flashcards, Browse, find duplicates). A phone away from home cannot sync (it would need a Voynich app of its own); at home it opens Voynich on the computer as before. The Mac joins when its version catches up.</li>
+          <li><strong>The same Anki deck</strong> brought into both computers before they were paired is one deck after the first sync: its note types, notes, cards and the answers it brought are matched by Anki&rsquo;s own ids, and the answers are not counted twice. (Before 0.104 its cards showed twice.) A phone away from home cannot sync (it would need a Voynich app of its own); at home it opens Voynich on the computer as before. The Mac joins when its version catches up.</li>
         </ul>
 
         <h2 id="look">17. Themes and looks</h2>
