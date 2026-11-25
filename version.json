@@ -1,11 +1,11 @@
 {
-  "version": "0.106.0",
+  "version": "0.107.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.106.0/Voynich-Setup-0.106.0.exe",
-  "sha256": "36d73f6eddad4bbc7877d1f4adbcc7615ba097d08714b9d1f4165c1bf1649a96",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.107.0/Voynich-Setup-0.107.0.exe",
+  "sha256": "dbc6b24c745ab703c781e3411080f57d52fa94cbddf1dbeb47fec659c7d6c9e0",
   "notes": [
-    "Direct messages between two members of a circle",
-    "Invite someone outside your circles to a document"
+    "Calls, cameras and screen sharing in Firefox",
+    "The reader's word bar never hides a button on a narrow phone"
   ],
-  "signature": "XmRwqAmnd5X48U05LxsnTj1qbzBwgiN73SaFFTE9mbZbzRcfz3TygAQN5NhHuDTwVanJbDN57HE72jtD4L1sYQ=="
+  "signature": "SXowiXp0hx8prv1Ia8h12TqriiD0LpkufeBm330DYfgjOkZz2cxSi0/dLdgQ66r7tqhiH39J3D08CFcOoR1CjA=="
 }
