@@ -1,12 +1,12 @@
 {
-  "version": "0.108.0",
+  "version": "0.109.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.108.0/Voynich-Setup-0.108.0.exe",
-  "sha256": "646c3367fcc781674c5acfdd346ab3db6d413f76274b2728cb5eb166e3987438",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.109.0/Voynich-Setup-0.109.0.exe",
+  "sha256": "9c3581b385dee84bede1ba8876db5961c5c3d030fdd2ab247f10868fa6e79b4e",
   "notes": [
-    "One Settings for circles: everything yours and everything about the circle, in one window",
-    "The gear by your name opens it at Your profile; the circle's name opens it at Overview",
-    "Your page in a circle shows what the others see; Edit in settings changes it"
+    "A member's page, redesigned: a banner on top, then week, shelf and lately side by side",
+    "Choose a banner for your page; the covers of the books you show go to the others too",
+    "Tidy titles: books named after a download get their real title, authors and ISBN"
   ],
-  "signature": "5lsQwVcw/h7uvfCmgtTwlRmGpLFKWJD0/YhuWnLm0GdKmURMAikv0ynE4yWxc922kP4IXw26fvglAmj2IaQjpg=="
+  "signature": "d8JfHIOLC7mNqfcLNW5Yb9x4yerxKt3ZeY8YfPYWVLgwG4vohaP5x6Q6vM8rv678p7R/ERrTv1A+5BG/zXJ5bw=="
 }
