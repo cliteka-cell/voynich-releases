@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Voynich does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.110.0; later versions may add things, and Settings, About and updates lists what changed.</p>
+  <p class="lead">Everything Voynich does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.110.1; later versions may add things, and Settings, About and updates lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -636,7 +636,7 @@
         <h3 id="phone-secure">Calls and cameras on the phone (the secure address)</h3>
         <p>A phone lets a page use its microphone and camera only on a secure (https) address, and a home network has none of its own. So from 0.110 Voynich makes its own certificate on this computer, and the phone&rsquo;s address answers both ways, http and https, on the same port. Trust the certificate once on each phone and it opens Voynich on https from then on: talking and the camera in voice channels, voice messages, and flashcards with the computer out of reach.</p>
         <ol>
-          <li>In Settings, <em>Circles and phone</em>, <em>Your phone</em>, <em>Calls and cameras on the phone</em> shows a QR code. Scan it with the phone, or on the phone tap <em>Calls on this phone</em> in a voice channel.</li>
+          <li>In Settings, <em>Circles and phone</em>, <em>Your phone</em>, <em>Calls and cameras on the phone</em> shows a QR code. Scan it with the phone, or on the phone tap <em>Calls on this phone</em> in a voice channel. The code holds the address chosen under <em>Address in the code</em>: the home network&rsquo;s when the phone is on the same Wi-Fi, Tailscale&rsquo;s (100.&hellip;) when it uses Tailscale (on mobile data, say). A page that stays white means the other one.</li>
           <li>Follow the steps the page shows for the phone. On an iPhone, in Safari: <em>Download the certificate</em>, <em>Allow</em>; then Settings, <em>Profile Downloaded</em>, <em>Install</em>; then Settings, General, About, <em>Certificate Trust Settings</em>, and turn on <em>Voynich on</em> your computer&rsquo;s name. On Android: <em>Download the certificate</em>, then in Settings search for <em>CA certificate</em>, choose <em>Install anyway</em> and pick the file.</li>
           <li>Before you trust it, check that the fingerprint (SHA-256) the phone shows for it is the one Settings shows on the computer.</li>
           <li>The page notices by itself when the phone trusts it: press <em>Open Voynich on the secure address</em>. From then on the phone&rsquo;s plain address goes there by itself; to keep it on the home screen, add it again from there.</li>
