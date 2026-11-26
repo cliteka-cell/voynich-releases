@@ -1,11 +1,10 @@
 {
-  "version": "0.117.0",
+  "version": "0.118.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.117.0/Voynich-Setup-0.117.0.exe",
-  "sha256": "33008dfd3d97b2c87610455156cb339b5edf55825ff43cd2b624d9c563bb6e63",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.118.0/Voynich-Setup-0.118.0.exe",
+  "sha256": "6c9fdb0a7728aadc0870d92f66b18900558b8c78569040047933aa90e0a90f94",
   "notes": [
-    "The theme studio is the one place for a theme",
-    "Compare with the original, What I changed, and parts on this page first"
+    "See and edit a theme as CSS: Open CSS, then Edit, and the settings follow as you type"
   ],
-  "signature": "uFTzxpSXAFTtp2KLasAaqCbrpGHRkaRv+bTSVo/+Jol47qQNePqEMBBffp+K7zr0MltPqf9ODheSMYon8R+pCQ=="
+  "signature": "nkB/0+i2i5EL8bcIkxQ++hVNbAC22gbzEIJEYUqbbHgNPo+NP7mUd8SgArm7oWt1EH5v4HsoHWSadyfnRF5bxA=="
 }
