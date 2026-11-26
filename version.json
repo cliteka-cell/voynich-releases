@@ -1,11 +1,10 @@
 {
-  "version": "0.114.0",
+  "version": "0.115.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.114.0/Voynich-Setup-0.114.0.exe",
-  "sha256": "5dafffe3c6f191224ebc4edb6a7522c5fcad4805b177b57ed80be321294dfde2",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.115.0/Voynich-Setup-0.115.0.exe",
+  "sha256": "c171be5fe9365b00eedc4679bc41f0bb02f950452763c9a81406a07ee49cf434",
   "notes": [
-    "Themes of your own: copy any theme, name it, change anything, keep as many as you like",
-    "A background picture, undo and redo, and your own CSS with a safe start"
+    "Send your theme in a circle: others try it for a minute, or keep it"
   ],
-  "signature": "TScVMM4PWnonlEVgVpciGGt+towcoa6OZY6QP+d7RkvLGDXso22gRLLOgeIJnsKxaLuSWU80r9q9XRGdzpC3GQ=="
+  "signature": "bs2MliWZHHousgNM3SK1eRwzQoTvACVkH81U0TRYXvW5cU/nA9qU9YqWfvmfsb2wB/goGKTf9CGJuUVsBN385Q=="
 }
