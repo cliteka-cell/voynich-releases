@@ -1,10 +1,10 @@
 {
-  "version": "0.120.0",
+  "version": "0.121.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.120.0/Voynich-Setup-0.120.0.exe",
-  "sha256": "35cdc5888c90c25449f5e3c43c78aa7dbe2e6519a7263f394f418484fd4c6dcf",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.121.0/Voynich-Setup-0.121.0.exe",
+  "sha256": "b42939c51b09bada496b2b3b12831541352b220995a150fa11c1bba507313557",
   "notes": [
-    "Themes that react: your CSS can follow the time of day, the tab, a call, your streak, cards due and reading"
+    "Rules: a theme for a room, a circle, two dates each year or a time of day, shown by itself"
   ],
-  "signature": "ZtNTW/hC357k7bbGM7uLHMUknrQTHiMdRQXM7uJKLqWYVBB0td1hX9k+UL0TmYH5Fgaou8hujouSbKItjCkUaA=="
+  "signature": "Okrm7xHbcpH4CVp2vgRwVx4WMZWcf0R4nzDTqi8B/g9bi1LnMUR4yfuwKwsv5688VE6wxp2HkIK2RqU1z/H4hw=="
 }
