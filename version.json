@@ -1,10 +1,10 @@
 {
-  "version": "0.124.0",
+  "version": "0.125.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.124.0/Voynich-Setup-0.124.0.exe",
-  "sha256": "32ea66eebd0124aa2316f02c4d31bd95be0cf5d9fc5683fd682d5e360214cac9",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.125.0/Voynich-Setup-0.125.0.exe",
+  "sha256": "95cc5dd15577201be96993a081d6451e6a4a312576cf86e24b8ca4237c9a3837",
   "notes": [
-    "Theme jams: a circle changes one theme together, live"
+    "Your tabs: in your order, hidden, renamed, and the tab each room opens on"
   ],
-  "signature": "wB8pItVs1OlsKTgJevsI9iq4HFnY2jsoyy0oBL1PPayEvHgG+AHNrPixoMwsZRm7TZeFmXxWhFcvFBEyf5Ozow=="
+  "signature": "b0zkvyRy/BDOVq5LcfhxTcV6vqn2CsYLpLgGLRpyTqQBAJpgSBqb41Gj3L+6WJpp5dTNnU0vavSwkrd0VRHx8Q=="
 }
