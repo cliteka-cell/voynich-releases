@@ -1,10 +1,10 @@
 {
-  "version": "0.126.0",
+  "version": "0.127.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.126.0/Voynich-Setup-0.126.0.exe",
-  "sha256": "fb9265efcbc234cb8ad51aa3195189347d37b2c7a2d14e906859ac71deb0906c",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.127.0/Voynich-Setup-0.127.0.exe",
+  "sha256": "568ef259854f76685a95064d253c975c69b610b29fc8f263a6c6f5d90724d144",
   "notes": [
-    "Sound packs: a theme's own short sounds, with one switch for them all"
+    "Call sounds, and each person's volume with a right click"
   ],
-  "signature": "STLR5yjYdJraM+6kMWCrJr6/cEXpQO9v7/T1vutcxnuNYqZ1BqhX8yXAbp1yEUKbGZE5O8TlKneENoQKks9leA=="
+  "signature": "skv34jHnHgQG5iMi2I9rRm7TePgFsXdEcYCJaQAhRzxo90CfZFQdQsKJEcIZmbRgCT1zXG6vCpbp8DGObqH7gg=="
 }
