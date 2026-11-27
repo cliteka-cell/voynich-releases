@@ -1,10 +1,10 @@
 {
-  "version": "0.127.0",
-  "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.127.0/Voynich-Setup-0.127.0.exe",
-  "sha256": "568ef259854f76685a95064d253c975c69b610b29fc8f263a6c6f5d90724d144",
+  "version": "0.127.1",
+  "date": "2026-11-27",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.127.1/Voynich-Setup-0.127.1.exe",
+  "sha256": "665af1d2e8393e7eb28f6f50fb4a9f1836cd910094e98a0634c8fc20a3fb1882",
   "notes": [
-    "Call sounds, and each person's volume with a right click"
+    "Read aloud on a phone: the light follows the voice, and leaves nothing behind"
   ],
-  "signature": "skv34jHnHgQG5iMi2I9rRm7TePgFsXdEcYCJaQAhRzxo90CfZFQdQsKJEcIZmbRgCT1zXG6vCpbp8DGObqH7gg=="
+  "signature": "o8XgnL6DpVg1sHFyfjvSFAD1gn38wRV705hvtjI3xaS8TgqQ5lfS+TCZw32tH/+G4UTSnaKECgVUeWAEoTwlmg=="
 }
