@@ -1,12 +1,12 @@
 {
-  "version": "0.130.0",
-  "date": "2026-11-27",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.130.0/Voynich-Setup-0.130.0.exe",
-  "sha256": "e14a60849f30d84defdd5c3128898ba83ad4685065c1d468230de94fcf82fc5e",
+  "version": "0.131.0",
+  "date": "2026-11-28",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.131.0/Voynich-Setup-0.131.0.exe",
+  "sha256": "619f31dd4b0dd44bc7b3db94f79cb273e84aa3045e7f8e746723ed4c40a4d734",
   "notes": [
-    "No character limit you can reach: messages of any length, in channels and threads too",
-    "Notes, card sides, AI questions and your own CSS can be far longer",
-    "Names up to 100 characters"
+    "Scenes: a theme can draw behind the page with a script of its own, sealed off from your data",
+    "A scene from someone else stays off until you run it",
+    "Theme files and sent themes carry their scene"
   ],
-  "signature": "c+CoYJT8yo1ZeFcNj3TqH9cyILsYgYQ5Ni92L+7R5dmooTJi2/vRsbPWonaVsBrtya6AoqPEzzA0pauMkGHDzg=="
+  "signature": "fczyc6OFYSiXwveDpTOQPn7YF1nfZbzBR9K+zzxxhZRoZYCStNF1bV48HIE1epy6qA3Ef/7FOHDSKqgNxybwxw=="
 }
