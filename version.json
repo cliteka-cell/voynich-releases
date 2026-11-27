@@ -1,12 +1,12 @@
 {
-  "version": "0.128.0",
+  "version": "0.129.0",
   "date": "2026-11-27",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.128.0/Voynich-Setup-0.128.0.exe",
-  "sha256": "91367dc2b9f5b2b5058add07fa7673ceef87057f2a00c4e091c375279b8da103",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.129.0/Voynich-Setup-0.129.0.exe",
+  "sha256": "92630d17b473fc7c7586b2e0fa43e218fb939f50234e93a71211b1ea31e7fd3d",
   "notes": [
-    "Circle messages as Windows' own notifications, also while Voynich is closed to its icon",
-    "Direct messages and replies to you are counted and notify you, like mentions",
-    "What you read on the phone is read on the computer too"
+    "Theme files can carry their CSS, and a theme of any size goes in a direct message",
+    "Liquid glass and themes that follow the mouse, from Onur's Ay Camı theme",
+    "The top bar no longer squeezes into its corner when the window comes back"
   ],
-  "signature": "X3pfse31Jr9q5WxsULCevxuyx1ey3+vpor8x7zW7fHD2FReoVhqOjmaqVwCjA3Al/HXHTDE2lSp06Li+PRlW3A=="
+  "signature": "+/xt98JFBWCeL6wvEHAvTReP5t9YiFKA5UlgCdFUlGN5RBQgSuVuzAuYPA3J6FJ21OqNCzCPjjZVX9cNzOofQg=="
 }
