@@ -1,12 +1,12 @@
 {
-  "version": "0.134.0",
+  "version": "0.135.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.134.0/Voynich-Setup-0.134.0.exe",
-  "sha256": "7bfef3e81d51f8a94cdfd3e29b7892ae8863713f414a9b9a7186649e8196013f",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.135.0/Voynich-Setup-0.135.0.exe",
+  "sha256": "b16c401047b706034a1105e9d4b0360f41d105fc941a4612589775f07fbacbfa",
   "notes": [
-    "Your status: Online, Idle, Do Not Disturb or Invisible, shown to your circles",
-    "Do Not Disturb: no pop-ups, sounds or flashing; quiet hours do it by themselves",
-    "Idle by itself after 10 minutes away, never in a call"
+    "Sounds for messages, mentions and direct messages, each its own",
+    "Every sound in one list: on or off, play it, one volume",
+    "A message sounds once, where you used Voynich last"
   ],
-  "signature": "+HAcoH+iY38x8MQe8fD0wpmCl4UKdrw5OQfxmeUcOf5qk4oysk9iDHjdgAUl6RJI27fQh4Eqvgcrv8BdYUGb7g=="
+  "signature": "3D7J0N50CKgUyTSuPThgFk9g5CYcSv6Gnhbxv4JTTuq5IX20tPGnDY3NqTxA1/fLGCZ9PHM/mtQfo2sPF0DtNg=="
 }
