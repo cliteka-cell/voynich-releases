@@ -1,12 +1,12 @@
 {
-  "version": "0.136.0",
+  "version": "0.137.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.136.0/Voynich-Setup-0.136.0.exe",
-  "sha256": "817260229007110f47294b5d7789b9d2bbe09f78d93d093df87a70c1b313bf36",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.137.0/Voynich-Setup-0.137.0.exe",
+  "sha256": "6a3adb7932985efb34ecf84dab88eda7c0e2ac79f0b00cd77d5e97f3c9608a61",
   "notes": [
-    "The Inbox: a bell in the top bar with your mentions and what is unread",
-    "A NEW line and a bar where you stopped in a channel",
-    "Mark as read: in the Inbox, on the rail, Esc in a channel, Shift+Esc for everything"
+    "A circle's own picture on the rail, instead of its initials",
+    "A banner at the top of its channels",
+    "Its maker chooses them; everyone in the circle has them"
   ],
-  "signature": "6Li++SwtTNQsFsBzH5ZAItnpxAJJaxN636F8gv0znXEpHJ5Cd8RSN+74UdAXeOXB6O5hgb3bWBrXZtKZvfuCDQ=="
+  "signature": "Gs48qKlLnKw0Ddww9lJaoG1rzYTEEF41Lw8Us85GjFw5GoJ+FDlIU3BBS3FcaM7MvzGPS+YVdi1vrSKE4KhXsA=="
 }
