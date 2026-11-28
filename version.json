@@ -1,12 +1,12 @@
 {
-  "version": "0.138.0",
+  "version": "0.139.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.138.0/Voynich-Setup-0.138.0.exe",
-  "sha256": "2050932d623b1c32158b13b4a16c8ec2b8fbed58ea13bd97f22c77c3deb5b534",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.139.0/Voynich-Setup-0.139.0.exe",
+  "sha256": "7200d7b3a1d2f678edf5df0fac67b47e9f89870c8748d05af2818894db74488f",
   "notes": [
-    "Listening to: your circles can see what you play",
-    "From any player Windows' volume pop-up shows, Spotify included",
-    "Off until you turn it on, hidden in Do Not Disturb and Invisible"
+    "Start a Jam: share a Spotify Jam in a channel",
+    "A card with Join on Spotify, and who joined",
+    "Voynich never talks to Spotify: it only shows the link"
   ],
-  "signature": "tTplTSa80Cy7cuplezmdT4pe0/ovmS3kabP30PV4/7+zcO+eyQkUqFNDBKYN0+iulzkTwzfBc/ghJIraV7IryQ=="
+  "signature": "kdemYWYidPu36yMvZWvUojejNRpA0X4v9rZkiFWT4WzHRBv35V7soDRYOMpxpIo5+84Bmd8wCnVmf7TSdoy+dg=="
 }
