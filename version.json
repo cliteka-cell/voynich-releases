@@ -1,12 +1,12 @@
 {
-  "version": "0.135.0",
+  "version": "0.136.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.135.0/Voynich-Setup-0.135.0.exe",
-  "sha256": "b16c401047b706034a1105e9d4b0360f41d105fc941a4612589775f07fbacbfa",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.136.0/Voynich-Setup-0.136.0.exe",
+  "sha256": "817260229007110f47294b5d7789b9d2bbe09f78d93d093df87a70c1b313bf36",
   "notes": [
-    "Sounds for messages, mentions and direct messages, each its own",
-    "Every sound in one list: on or off, play it, one volume",
-    "A message sounds once, where you used Voynich last"
+    "The Inbox: a bell in the top bar with your mentions and what is unread",
+    "A NEW line and a bar where you stopped in a channel",
+    "Mark as read: in the Inbox, on the rail, Esc in a channel, Shift+Esc for everything"
   ],
-  "signature": "3D7J0N50CKgUyTSuPThgFk9g5CYcSv6Gnhbxv4JTTuq5IX20tPGnDY3NqTxA1/fLGCZ9PHM/mtQfo2sPF0DtNg=="
+  "signature": "6Li++SwtTNQsFsBzH5ZAItnpxAJJaxN636F8gv0znXEpHJ5Cd8RSN+74UdAXeOXB6O5hgb3bWBrXZtKZvfuCDQ=="
 }
