@@ -1,12 +1,12 @@
 {
-  "version": "0.137.0",
+  "version": "0.138.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.137.0/Voynich-Setup-0.137.0.exe",
-  "sha256": "6a3adb7932985efb34ecf84dab88eda7c0e2ac79f0b00cd77d5e97f3c9608a61",
+  "installer": "https://github.com/cliteka-cell/voynich-releases/releases/download/v0.138.0/Voynich-Setup-0.138.0.exe",
+  "sha256": "2050932d623b1c32158b13b4a16c8ec2b8fbed58ea13bd97f22c77c3deb5b534",
   "notes": [
-    "A circle's own picture on the rail, instead of its initials",
-    "A banner at the top of its channels",
-    "Its maker chooses them; everyone in the circle has them"
+    "Listening to: your circles can see what you play",
+    "From any player Windows' volume pop-up shows, Spotify included",
+    "Off until you turn it on, hidden in Do Not Disturb and Invisible"
   ],
-  "signature": "Gs48qKlLnKw0Ddww9lJaoG1rzYTEEF41Lw8Us85GjFw5GoJ+FDlIU3BBS3FcaM7MvzGPS+YVdi1vrSKE4KhXsA=="
+  "signature": "tTplTSa80Cy7cuplezmdT4pe0/ovmS3kabP30PV4/7+zcO+eyQkUqFNDBKYN0+iulzkTwzfBc/ghJIraV7IryQ=="
 }
